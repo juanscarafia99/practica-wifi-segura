@@ -20,6 +20,8 @@ Cuando nos conectamos a la Wi-Fi de un bar, un aeropuerto o una plaza, compartim
 
 `neverssl.com` es un sitio que funciona a propósito **sin HTTPS**, por eso sirve para ver cómo viaja una página sin cifrado.
 
+> **Nota:** en la consigna el host de ejemplo es `http://ejemplo-inseguro.com`. En esta práctica ese rol lo cumple `neverssl.com`: ambos son sitios servidos por HTTP plano, sin cifrado, así que el análisis aplica igual a `http://ejemplo-inseguro.com`.
+
 ## 3. Evidencia observada
 
 La primera solicitud al cargar la página es el documento HTML pedido por **HTTP**. Estos son los datos que muestra la pestaña **Network** al seleccionar esa solicitud; los tomé de mi captura de tráfico con Wireshark (frames 4346 y 4349), que registra la misma petición.
